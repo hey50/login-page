@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');body{
+font-family: "Roboto", sans-serif;
+} 
+
+
+.container{
+    /* background-color: yellow; */
+    max-width: 1200px;
+    margin: auto;
+   
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aquamarine; */
+    padding: 30px;
+    position: fixed; 
+     top: 0; 
+    left: 50%;
+        /* بدء العنصر من منتصف الصفحة */
+        transform: translateX(-50%);
+        width: 80%;
+    z-index: 1000;
+}
+
+header{
+    background-image: url(./1\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+}
+
+p.logo{
+    font-weight: 600;
+    font-size: 25px;
+    color: orange;
+}
+
+ul{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+li{
+    list-style: none;
+}
+li a{
+text-decoration: none;
+padding: 0 20px;
+color: white;
+font-weight: bold;
+}
+form{
+    border: 2px solid orange;
+    border-radius: 5px;
+    
+}
+ form input{
+    background-color: transparent;
+   border: none;
+   padding: 10px;
+   
+    
+}
+
+form button{
+    background-color: orange;
+    border: none;
+ 
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+} 
+
+
+form button:hover{
+    background-color: rgb(228, 12, 4);
+}
+
+
+form input::placeholder{
+    color: white;
+}
+
